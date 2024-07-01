@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoBaju Client - Register</title>
+    <link rel="stylesheet" href="assets/style/login.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="centering">
+        <form class="my-form" onsubmit="register(event)">
+            <div class="login">
+                <img
+                    class="login-welcome"
+                    src="assets/img/astronaut.jpg"
+                    alt="Astronaut"
+                >
+                <h1>Register!</h1>
+            </div>
+            <div class="text-field">
+                <label for="username">Username:</label>
+                <input
+                    aria-label="Username"
+                    type="text"
+                    id="register-username"
+                    name="username"
+                    placeholder="Your Username"
+                    required
+                >
+                <img
+                    alt="Username Icon"
+                    title="Username Icon"
+                    src="assets/img/username.svg"
+                >
+            </div>
+            <div class="text-field">
+                <label for="email">Email:</label>
+                <input
+                    aria-label="Email"
+                    type="email"
+                    id="register-email"
+                    name="email"
+                    placeholder="Your Email"
+                    required
+                >
+                <img
+                    alt="Email Icon"
+                    title="Email Icon"
+                    src="assets/img/email.svg"
+                >
+            </div>
+            <div class="text-field">
+                <label for="password">Password:</label>
+                <input
+                    id="register-password"
+                    type="password"
+                    aria-label="Password"
+                    name="password"
+                    placeholder="Your Password"
+                    required
+                >
+                <img
+                    alt="Password Icon"
+                    title="Password Icon"
+                    src="assets/img/password.svg"
+                >
+            </div>
+            <div class="text-field">
+                <label for="confirm-password">Confirm Password:</label>
+                <input
+                    id="confirm-password"
+                    type="password"
+                    aria-label="Confirm Password"
+                    name="confirm-password"
+                    placeholder="Confirm Your Password"
+                    required
+                >
+                <img
+                    alt="Confirm Password Icon"
+                    title="Confirm Password Icon"
+                    src="assets/img/password.svg"
+                >
+            </div>
+            <input type="submit" class="my-form__button" value="Register" >
+            <div class="my-form__actions">
+                <div class="my-form__row">
+                    <span>Already have an account?</span>
+                    <a href="Index.html" title="Log In">Log In</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
