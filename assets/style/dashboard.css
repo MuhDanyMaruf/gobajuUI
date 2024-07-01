@@ -331,6 +331,47 @@ body main {
     }
 }
 
+/* Gaya dasar untuk tabel */
+#clothingTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Gaya untuk header tabel */
+#clothingTable thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Gaya untuk sel tabel */
+#clothingTable th,
+#clothingTable td {
+    padding: 12px 15px;
+}
+
+/* Gaya untuk baris zebra */
+#clothingTable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+/* Gaya untuk efek hover */
+#clothingTable tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Gaya untuk border tabel */
+#clothingTable th,
+#clothingTable td {
+    border: 1px solid #dddddd;
+}
+
+
 .parallax-image {
     display: block;
     height: 58.75rem;
